@@ -28,6 +28,7 @@ To start using this library you just need to override the `application` option i
 
 [scrapyd]
 application = scrapyd_mongodb.application.get_application
+jobstorage  = scrapyd_mongodb.jobstorage.MongoDBJobStorage
 ...
 
 ```
